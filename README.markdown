@@ -2,7 +2,7 @@ This repository holds my configuration files so that I can clone them to other m
 easily.
 
 ##Installation:
-
+     rm -rf ~/.vim*
      sudo apt-get install zsh git curl
      curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
      curl http://j.mp/spf13-vim3 -L -o - | sh
