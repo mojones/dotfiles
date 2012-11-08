@@ -3,8 +3,7 @@ easily.
 
 ##Installation:
 
-     sudo apt-get install zsh
-     sudo apt-get install vim
+     sudo apt-get install zsh git curl
      curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
      curl http://j.mp/spf13-vim3 -L -o - | sh
      git clone git://github.com/mojones/dotfiles.git ~/.dotfiles
