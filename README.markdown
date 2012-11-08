@@ -3,9 +3,18 @@ easily.
 
 ##Installation:
 
-git clone git://github.com/zan5hin/dotfiles.git ~/.dotfiles
-
+     sudo apt-get install zsh
+     sudo apt-get install vim
+     curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+     curl http://j.mp/spf13-vim3 -L -o - | sh
+     git clone git://github.com/mojones/dotfiles.git ~/.dotfiles
+     ln -s ~/.dotfiles/.zshrc ~/.zshrc
+     ln -s ~/.dotfiles/.vimrc.local ~/.vimrc.local
+     ln -s ~/.dotfiles/.vim ~/.vim
+     chsh -s /usr/bin/zsh 
+     
 ## Updating
+
 
 $ cd ~/.dotfiles
 $ git pull
