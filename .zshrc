@@ -43,4 +43,6 @@ setopt prompt_subst
 
 PROMPT='%{$fg[green]%}%d%{$reset_color%}
 '
-RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%}'
+RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} %t'
+alias c='gcalcli --user martin846 --cal "Teaching"#red --cal "Martin Jones"#green agenda'
+
