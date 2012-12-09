@@ -1,1 +1,3 @@
 set background=dark
+set clipboard+=unnamed
+set number
